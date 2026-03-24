@@ -1,0 +1,13 @@
+{
+  "name": "gabrielsebold/ex03-composer-faker",
+  "description": "Aplicacao simples em PHP usando Faker via Composer.",
+  "type": "project",
+  "require": {
+    "fakerphp/faker": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
