@@ -1,49 +1,22 @@
-# Ex04 - Laravel - Calculo IMC
+# Ex04 - IMC (Laravel)
 
-Projeto da atividade de Desenvolvimento Web 2 com Laravel (MVC).
+Exercicio de IMC da aula, feito em Laravel.
 
-## Requisitos do exercicio atendidos
-- Projeto Laravel.
-- Formulario de entrada.
-- Uso de template Blade.
-- Uso de Model e Controller.
-- Funcionalidade de calculo IMC com classificacao.
-
-## Campos solicitados
-- Nome
-- Data de nascimento
-- Peso (kg)
-- Altura (m)
-
-## Execucao
-1. Abra o terminal nesta pasta.
-2. Rode:
-
-```bash
-composer install
-```
-
-3. Rode o servidor:
-
-```bash
-php artisan serve
-```
-
-4. Acesse no navegador:
-
-```text
-http://127.0.0.1:8000
-```
-
-### Exemplo de comando (como testado)
-Se voce estiver na pasta raiz `DesenvolvimentoWeb2`, rode:
+## Como rodar
+Na pasta raiz `DesenvolvimentoWeb2`, roda:
 
 ```bash
 php .\Ex04.06-04-2026-laravel-imc\artisan serve --port=8000
 ```
 
-## Testes
-Rode os testes automatizados com:
+Depois abre:
+
+```text
+http://127.0.0.1:8000
+```
+
+## Teste rapido
+Dentro da pasta do exercicio:
 
 ```bash
 php artisan test
