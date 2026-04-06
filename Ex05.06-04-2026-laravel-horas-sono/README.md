@@ -37,6 +37,13 @@ php artisan serve
 http://127.0.0.1:8000
 ```
 
+### Exemplo de comando (como testado)
+Se voce estiver na pasta raiz `DesenvolvimentoWeb2`, rode:
+
+```bash
+php .\Ex05.06-04-2026-laravel-horas-sono\artisan serve --port=8001
+```
+
 ## Testes
 Rode os testes automatizados com:
 
